@@ -72,10 +72,66 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "8005609a-125a-42fc-83fa-9629b515cba5": {
+      "type": "custom-grid",
+      "blocks": {
+        "a68b3bed-6995-48bf-afaa-2168b8e0fb2d": {
+          "type": "product",
+          "settings": {
+            "product": "the-3p-fulfilled-snowboard",
+            "heading": "Ride the Wave with Our Skateboards",
+            "subheading": "Experience the thrill of smooth cruising on high-quality boards.",
+            "price": "",
+            "button_label": "Shop Now"
+          }
+        },
+        "cf8d1e7a-c724-406c-8c16-500fe35fb378": {
+          "type": "product",
+          "settings": {
+            "product": "the-collection-snowboard-hydrogen",
+            "heading": "Unleash Your Skateboarding Skills",
+            "subheading": "Perform tricks and stunts on our durable and stylish skateboards.",
+            "price": "RS. 828.00",
+            "button_label": "Shop Now"
+          }
+        },
+        "b41bfe91-af6f-4a88-80b4-ce2bbb7badab": {
+          "type": "product",
+          "settings": {
+            "product": "the-collection-snowboard-liquid",
+            "heading": "Glide with Style on Our Skateboards",
+            "subheading": "Upgrade your skateboarding game with our sleek and modern boards.",
+            "price": "",
+            "button_label": "Shop Now"
+          }
+        },
+        "ee6edc06-cf08-40ef-ab09-735e397dbf7f": {
+          "type": "product",
+          "settings": {
+            "product": "the-collection-snowboard-oxygen",
+            "heading": "Skateboard Like a Pro with Our Boards",
+            "subheading": "Take your skateboarding to the next level with our performance-oriented boards.",
+            "price": "",
+            "button_label": "Shop Now"
+          }
+        }
+      },
+      "block_order": [
+        "a68b3bed-6995-48bf-afaa-2168b8e0fb2d",
+        "cf8d1e7a-c724-406c-8c16-500fe35fb378",
+        "b41bfe91-af6f-4a88-80b4-ce2bbb7badab",
+        "ee6edc06-cf08-40ef-ab09-735e397dbf7f"
+      ],
+      "settings": {
+        "title": "Browse our Products",
+        "subtitle": "Get the Best Skateboards"
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "8005609a-125a-42fc-83fa-9629b515cba5"
   ]
 }

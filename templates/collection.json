@@ -25,10 +25,55 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "769bedb1-b87f-4851-9f45-eb8bd492205c": {
+      "type": "custom-grid",
+      "blocks": {
+        "b9418cfc-f1c6-48c8-9152-8c23df8841cc": {
+          "type": "product",
+          "settings": {
+            "product": "the-complete-snowboard",
+            "heading": "Discover the Freedom of Skateboarding",
+            "subheading": "Embrace the freedom and creativity of skateboarding on our top-notch boards.",
+            "price": "",
+            "button_label": "Shop Now"
+          }
+        },
+        "d6eb39f7-14eb-40da-87e9-56d9f6f64f28": {
+          "type": "product",
+          "settings": {
+            "product": "the-multi-location-snowboard",
+            "heading": "Skateboard Your Way to Adventure",
+            "subheading": "Embark on new adventures and explore new destinations with our versatile skateboards.",
+            "price": "",
+            "button_label": "Shop Now"
+          }
+        },
+        "3cf6907f-021c-413c-bd58-61722b739b25": {
+          "type": "product",
+          "settings": {
+            "product": "the-multi-managed-snowboard",
+            "heading": "The Perfect Skateboard for Every Rider",
+            "subheading": "Find the ideal skateboard for you, whether you're a beginner or an experienced rider.",
+            "price": "",
+            "button_label": "Shop Now"
+          }
+        }
+      },
+      "block_order": [
+        "b9418cfc-f1c6-48c8-9152-8c23df8841cc",
+        "d6eb39f7-14eb-40da-87e9-56d9f6f64f28",
+        "3cf6907f-021c-413c-bd58-61722b739b25"
+      ],
+      "settings": {
+        "title": "You may like these as well",
+        "subtitle": "we have some curated products for you!"
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "769bedb1-b87f-4851-9f45-eb8bd492205c"
   ]
 }
