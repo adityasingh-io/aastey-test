@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+.section-product-grid {
+    padding: 30px;
+}
+
+.product-grid__header--title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.product-grid__header--subtitle {
+    font-size: 24px;
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product-grid__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-grid__card {
+    width: 32%;
+    position: relative;
+    margin: 20px 20px 0 0;
+}
+
+.product-grid__card--content-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #00000038;
+    align-items: center;
+}
+
+.product-grid__card--content-inner-container {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    padding: 0 0 30px 30px;
+
+}
+
+.product-grid__card--image {
+    width: 100%;
+}
+
+.product-grid__card--heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+.product-grid__card--subheading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    color: #fff;
+    margin: 0;
+    text-align: left;
+}
+
+.product-grid__card--subheading span {
+    background-color: #a4bb20;
+    padding: 0 4px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.product-grid__card--btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product-grid__card--btn::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+}
+
+.product-grid__container-prev, .product-grid__container-next {
+    position: absolute;
+    top: 45%;
+    z-index: 99;
+    background: #fff;
+    border-radius: 100px;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 20px;
+    border: 1px solid grey;
+}
+
+.product-grid__container-prev:hover, .product-grid__container-next:hover {
+    cursor: pointer;
+}
+
+.product-grid__container-prev{
+    left: -15px;
+}
+
+.product-grid__container-next {
+    right: 0;
+}
+
+@media only screen and (max-width: 768px){
+    .product-grid__card {
+        margin: 0;
+    }
+
+    .product-grid__container-prev{
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    .product-grid__card {
+        min-height: 400px !important;
+    }
+
+    .product-grid__card--heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .product-grid__card--subheading {
+        font-size: 18px;
+    }
+    
+    .product-grid__card--btn {
+        font-size: 18px;
+    }
+}
