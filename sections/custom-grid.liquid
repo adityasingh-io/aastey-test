@@ -51,6 +51,8 @@
                 {% endif %}
                 {% if block.settings.button_label != blank %}
                   <a class="product-grid__card--btn" href="{{ block.settings.product.url }}">{{ block.settings.button_label }}</a>
+                {% else %}
+                  <a class="product-grid__card--btn" href="{{ block.settings.product.url }}">Shop Now</a>
                 {% endif %}
               </div>
             </div>
