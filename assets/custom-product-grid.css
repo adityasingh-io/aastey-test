@@ -78,6 +78,7 @@
     padding: 0 4px;
     border-radius: 5px;
     font-weight: 400;
+    white-space: nowrap;
 }
 
 .product-grid__card--btn {
